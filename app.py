@@ -4,7 +4,7 @@ import requests
 
 app = Flask(__name__)
 
-TARGET = "https://bot-api.junofficial.biz.id"
+TARGET = "https://chikoxploit-proxy.vercel.app/"
 
 @app.route("/", defaults={"path": ""}, methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS", "HEAD"])
 @app.route("/<path:path>", methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS", "HEAD"])
